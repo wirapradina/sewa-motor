@@ -1,6 +1,6 @@
-<div class="container my-5 pt-6">
+<div class="container my-5 pt-5">
     <div class="content">
-        <h2 class="mb-4 text-center fw-bold">Data Motor</h2>
+        <h2 class="text-center fw-bold">Data Motor</h2>
             <table class="table table-bordered" id="mytable">
                 <thead class="text-center table-mtr-color">
                     <tr>

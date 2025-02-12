@@ -17,36 +17,34 @@
 
 <body class="d-flex flex-column min-vh-100">
     <!-- NAVBAR -->
-    <header class="fixed-top bg-blue">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid px-4 px-lg-5">
-                <a class="navbar-brand fw-bold fs-4" href="<?php echo base_url('dashboard'); ?>">
-                    <img src="<?php echo base_url('assets/img/icon-motor.png'); ?>" alt="Icon" class="icon-header">
-                    ADMIN sewamotormu
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav gap-lg-4">
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?php echo base_url('dashboard'); ?>">Dashboard</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?php echo base_url('motor'); ?>">Data Motor</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?php echo base_url('customer'); ?>">Data Customer</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?php echo base_url('sewa'); ?>">Data Sewa</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?php echo base_url('akun/logout'); ?>">Log Out</a>
-                        </li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-blue fixed-top">
+        <div class="container-fluid px-4 px-lg-5">
+            <a class="navbar-brand fw-bold fs-4" href="<?php echo base_url('dashboard'); ?>">
+                <img src="<?php echo base_url('assets/img/icon-motor.png'); ?>" alt="Icon" class="icon-header">
+                ADMIN sewamotormu
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav gap-lg-4">
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo base_url('dashboard'); ?>">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo base_url('motor'); ?>">Data Motor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo base_url('customer'); ?>">Data Customer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo base_url('sewa'); ?>">Data Sewa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo base_url('akun/logout'); ?>">Log Out</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>

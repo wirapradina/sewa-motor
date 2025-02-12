@@ -1,6 +1,6 @@
-<main class="container my-5 pt-6a">
+<main class="container my-5 pt-5">
     <div class="content">
-        <h2 class="mb-4 text-center fw-bold">Data Sewa</h2>
+        <h2 class="text-center fw-bold">Data Sewa</h2>
         <div class="table-responsive">
             <table class="table table-bordered" id="mytable">
                 <thead class="text-center table-sewa-color">
